@@ -38,6 +38,7 @@ router.put(
   authorizeRole(['author', 'admin']),
   updateCourse
 );
+//
 
 // delete course
 router.delete(
